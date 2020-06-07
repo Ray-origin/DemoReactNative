@@ -7,9 +7,7 @@ import {
     TouchableOpacity,
 } from 'react-native'
 import theboy2 from '../Images/theboy2.jpg'
-import sadako from '../Images/sadako.jpg'
-import trolls from '../Images/trolls.jpg'
-import train from '../Images/Chuyentau.jpg'
+
 
 
 export default function ListItems (props) {
@@ -39,11 +37,8 @@ const style = StyleSheet.create({
   container:{
     padding:20,
     borderRadius:4,
-    backgroundColor:'#FF4000',
-    shadowColor:'#848484',
-    shadowOpacity:1,
-    shadowRadius:10,
-    shadowOffset: { width:0, height:0 },
+    backgroundColor:'#A9F5F2',
+
     marginBottom: 16
     //alignItems:'center',
   },

@@ -17,7 +17,7 @@ function RenderScreen(){
         return(
          <AppNavigator.Navigator initialRouteName="Screens/ListScreen.js" screenOptions={{
              headerStyle:{
-                 backgroundColor:'#FE642E'
+                 backgroundColor:'#81DAF5'
              },
              headerTintColor:'#fff',
              headerTitleStyle:{
