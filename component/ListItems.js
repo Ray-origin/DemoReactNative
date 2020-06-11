@@ -11,13 +11,13 @@ import theboy2 from '../Images/theboy2.jpg'
 
 
 export default function ListItems (props) {
-    const { ChangeID,onPress } = props;
+    const { ChangeID,onPress,ChangeImg } = props;
     return (
     <TouchableOpacity activeOpacity={0.5} 
       onPress={onPress}>  
       <View style={style.container}>
         <Text style={style.title}>{ChangeID.name} </Text>
-        <Image style={style.ImageStyle} source = {theboy2}/>
+        <Image style={style.ImageStyle} source = {{uri:ChangeImg.src}}/>
       </View>
     </TouchableOpacity>
     );
@@ -27,6 +27,7 @@ const style = StyleSheet.create({
   ImageStyle:{
     width: 120,
     height: 120,
+    // alignItems:'stretch'
   },
 
   title:{

@@ -26,7 +26,7 @@ function RenderScreen(){
             headerTitleAlign:'center'
          }}>
             <AppNavigator.Screen 
-            name="Home" 
+            name="HOME WORKOUT" 
             component= {ListScreen}/>
             <AppNavigator.Screen 
 
