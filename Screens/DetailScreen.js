@@ -13,6 +13,10 @@ import {
 
 export default class DetailScreen extends React.Component{
   render(){
+    //var itemId= this.props.route.params.itemId;
+    // var newData = data.filter(function(item){
+        // return item.id===itemId;
+  //})
     return(
       <View style={style.container}>
         <Text>Detail</Text>
