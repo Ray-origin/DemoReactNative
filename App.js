@@ -1,19 +1,21 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-    </View>
-  );
+import React from 'react';
+import {
+  StyleSheet,
+  View,
+  Text,
+} from 'react-native';
+import AppNavigator from './AppNavigator.js'
+import { NavigationContainer } from '@react-navigation/native';
+
+export default class App extends React.Component{
+  render(){
+    return (
+      <NavigationContainer>
+        <AppNavigator/>
+      </NavigationContainer>
+    )
+  };
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+
