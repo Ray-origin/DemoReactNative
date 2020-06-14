@@ -8,6 +8,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 //import { NavigationContainer } from '@react-navigation/native';
 import ListScreen from './Screens/ListScreen';
 import DetailScreen from './Screens/DetailScreen';
+import Exercise from './Screens/Exercise.js'
 
 const AppNavigator = createStackNavigator();
 
@@ -32,6 +33,7 @@ function RenderScreen(){
 
             name="DetailScreen" 
             component= {DetailScreen}/>
+
          </AppNavigator.Navigator>
         )
 

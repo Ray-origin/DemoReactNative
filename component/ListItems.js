@@ -6,7 +6,7 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from 'react-native'
-import theboy2 from '../Images/theboy2.jpg'
+// import theboy2 from '../Images/theboy2.jpg'
 
 
 
@@ -27,7 +27,6 @@ const style = StyleSheet.create({
   ImageStyle:{
     width: 120,
     height: 120,
-    // alignItems:'stretch'
   },
 
   title:{
@@ -39,8 +38,7 @@ const style = StyleSheet.create({
     padding:20,
     borderRadius:4,
     backgroundColor:'#A9F5F2',
-
+    elevation:10,
     marginBottom: 16
-    //alignItems:'center',
   },
 });
