@@ -66,7 +66,11 @@ export default class ListScreen extends React.Component{
         <View>
           <SectionList
           sections={categories}
-          renderItem={({item}) => <ListItems ChangeID={item} ChangeImg={item} onPress={() => navigation.navigate('DetailScreen')}/>}
+          renderItem={({item}) => <ListItems ChangeID={item} ChangeImg={item} onPress={() => navigation.navigate('DScreen',{
+            TittleName:item.name,
+            GetKind:item.id,      
+            TittleImg:item.src,
+          })}/>}
           keyExtractor={(item,index) => `${item.id}`}
           contentContainerStyle={style.container}
           renderSectionHeader={({section: { title } }) =>(
