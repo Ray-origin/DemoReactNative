@@ -12,10 +12,12 @@ import {
 
 export default function ListExercise (props) {
     const { exercise } = props;
+    
     return (
+      
       <View style={style.E_container}>
         <View style={style.ImageBeside}>
-            <Image style={style.E_ImageStyle} source = {{uri:'https://i.pinimg.com/564x/99/d3/a7/99d3a7c25ad1ff811d192caf9f598b45.jpg'}}/>
+            <Image style={style.E_ImageStyle} source = {{uri:exercise.src}}/>
         </View>
         <View style={style.TextBeside}>
             <Text style={style.E_title}>{exercise.name} </Text>

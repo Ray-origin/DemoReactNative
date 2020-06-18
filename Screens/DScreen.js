@@ -1,4 +1,3 @@
-
 import React from 'react';
 import {
   SafeAreaView,
@@ -12,70 +11,69 @@ import {
   FlatList
 } from 'react-native';
 import data from './db.json';
-import ListCheckExercise from '../component/ListCheckExercise'
+import ListExercise from '../component/ListExercise'
+// import { FlatList } from 'react-native-gesture-handler';
 
 export default class DetailScreen extends React.Component{
-  constructor (props){
-    super(props)
-    this.state ={
-      count: 0,
-      checkExercise: []
-    }
+
+  constructor(props) {
+    super(props) ;
+    this.state= {
+     exercises: [],
+    
+    };
+    
   }
   
-  //static: any;
-
-
   componentDidMount(){
-    const kindCheck = this.props.route.params.checkKind;
+    const getKind = this.props.route.params.GetKind;
     this.setState( {
-      checkExercise: data.exercises.filter(x=>x.kind===kindCheck)
+      exercises: data.exercises.filter(x=>x.kind===getKind)
     });
   }
-
-
-
-
-
-  onStart = () => {
-    this.static = setInterval(() => {
-      this.setState({
-        count: this.state.count + 1,
-      })
-    }, 1000);
-  }
-
-
-
   render(){
+    //var itemId= this.props.route.params.itemId;
+    // var newData = data.filter(function(item){
+        // return item.id===itemId;
+  //})
     const {navigation} = this.props;
-    const {count} = this.state;
-    const {checkExercise}=this.state;
-    
-  
+    const {exercises}=this.state;
+    const getKind = this.props.route.params.GetKind;
+   
     return(
-      <View>
+        <View>
             <View style={style.Content}>
             <FlatList 
-              data={checkExercise}
+              data={exercises}
+              renderItem={({ item }) => <ListExercise exercise ={item}/>
+              } 
               keyExtractor={item => `${item.id}`}
-              renderItem={({ item }) => <ListCheckExercise exercise ={item} />} 
             />
             </View>
             <View style={style.CustomButton}>
-            <TouchableOpacity  style={style.appButtonContainer}>
-                <Text  style={style.appButtonText} >Finish </Text>
+            <TouchableOpacity style={style.appButtonContainer} onPress={() => navigation.navigate('DetailScreen',{
+              
+              checkKind: getKind
+            })}>
+                <Text  style={style.appButtonText} >Start </Text>
             </TouchableOpacity>
             </View>
         </View>
     );
   }
 }
+
 const style = StyleSheet.create({
   Content:{
     marginBottom:50
   },
-  
+  /*</View>CustomButton:{
+    position:'absolute', 
+    bottom:0,
+    justifyContent:'flex-end',
+    width:'100%',
+    height:'100%'
+  },*/
   appButtonContainer: {
     position:'absolute',
     width:'95%',

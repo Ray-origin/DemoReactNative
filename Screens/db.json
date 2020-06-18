@@ -1,0 +1,235 @@
+{   
+    "exercises": [
+        {"id":1 ,"name": "JUMPING_JACK","time": "00:20","kind":1,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg" },
+        {"id":11 ,"name": "JUMPING_JACK","time": "00:30","kind":2,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg" },
+        {"id":31 ,"name": "ARM RAISES","time": "X30","kind":3,"src":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS77I6uEfuxwr46M3N4Nv0-hqXbSO96py5CkC39-XeSiH3rhC0m&usqp=CAU"},
+
+        {"id":41 ,"name": "JUMPING JACK","time": "X30","kind":5,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":56 ,"name": "JUMPING JACK","time": "00:30","kind":6,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":71 ,"name": "ARM CIRCLES CLOCKWISE","time": "00:30","kind":7,"src":"https://1.bp.blogspot.com/-dCM4N0GAk5Q/Wzd3620v4VI/AAAAAAAAGIw/vBn81YGic9owaIclRMLMNMIRq7FAkteiACLcBGAs/s1600/Screenshot_20180630-174856__01.jpg"},
+
+        {"id":101, "name":"JUMPING JACK", "time": "00:30","kind":9,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":121, "name":"JUMPING JACK", "time": "00:30","kind":10,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":136, "name":"ARM CIRCLES CLOCKWISE", "time": "00:30","kind":11,"src":"https://1.bp.blogspot.com/-dCM4N0GAk5Q/Wzd3620v4VI/AAAAAAAAGIw/vBn81YGic9owaIclRMLMNMIRq7FAkteiACLcBGAs/s1600/Screenshot_20180630-174856__01.jpg"},
+
+        {"id":2 ,"name": "ABDOMINAL CRUNCHES","time": "X16","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},   
+        {"id":3 ,"name": "MOUNTAIN CLIMBER","time": "X16","kind":1,"src":"https://3.bp.blogspot.com/-J0WuYSMEhoA/WzN-P_QKaLI/AAAAAAAAGHY/i_eAR25xmAkE31fXWBPO5YvUUUC0SoXzwCPcBGAYYCw/s200/Screenshot_20180627-151702__01.jpg"},
+        {"id":4 ,"name": "HELL TOUCH","time": "X20","kind":1,"src":"https://1.bp.blogspot.com/-24oK9Z1hmNA/WzN-iOYfH7I/AAAAAAAAGHo/atmkMu-oFcwHs1dptcWVk5WyBVWumuYmQCPcBGAYYCw/s200/Screenshot_20180627-151711__01.jpg"},
+        {"id":5 ,"name": "LEGS RAISES","time": "X16","kind":1,"src":"https://2.bp.blogspot.com/-QozcqWSqnlQ/WzN-tqzsZ8I/AAAAAAAAGHg/V-k63czRrNoi2UOM4fc01B3LpA2o3uBSACLcBGAs/s200/Screenshot_20180627-151719__01.jpg"},
+        {"id":6 ,"name": "PLANK","time": "00:20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
+        {"id":7 ,"name": "ABDOMINAL CRUNCHES","time": "X12","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
+        {"id":8 ,"name": "RUSSIAN TWIST","time": "X32","kind":1,"src":"https://2.bp.blogspot.com/-5CpqCp6N8Kc/WzN-AHlfKyI/AAAAAAAAGHU/YU51PT1B3DoPXZFPI7H1okSm7v0nL6PWACPcBGAYYCw/s200/Screenshot_20180627-151635__01.jpg"},
+        {"id":9 ,"name": "PLANK","time": "X20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
+        {"id":10 ,"name": "COBRA STRETCH","time": "00:30","kind":1,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+
+        
+        
+        {"id":12 ,"name": "INCLINE PUSHUPS","time": "X16","kind":2,"src":"https://1.bp.blogspot.com/-jMQMiT59Sls/W0Bo0eZShzI/AAAAAAAAGNY/KU2rvS-iogov7-MKxwDJLF0nlXmKRidMQCLcBGAs/s200/Screenshot_20180707-124056__01.jpg"},
+        {"id":13 ,"name": "KNEES PUSHUPS","time": "X16","kind":2,"src":"https://2.bp.blogspot.com/-rEUCzi-dD30/W0BpE-HQTZI/AAAAAAAAGNg/BUa0y3GV3ks26tbHqR9pvzsru7LQhOhfQCLcBGAs/s200/Screenshot_20180707-124101__01.jpg"},
+        {"id":14 ,"name": "PUSHUP","time": "X10","kind":2,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":15 ,"name": "INCLINE PUSHUPS","time": "X12","kind":2,"src":"https://1.bp.blogspot.com/-jMQMiT59Sls/W0Bo0eZShzI/AAAAAAAAGNY/KU2rvS-iogov7-MKxwDJLF0nlXmKRidMQCLcBGAs/s200/Screenshot_20180707-124056__01.jpg"},
+        {"id":16 ,"name": "BOX PUSHUPS","time": "X12","kind":2,"src":"https://1.bp.blogspot.com/-ghi6sCe6SMc/W0BpTt4g7yI/AAAAAAAAGNo/CAdFn-cMFjUiCSugGMtCmXjsNAHeiktbgCLcBGAs/s200/Screenshot_20180707-124048__01.jpg"},
+        {"id":17 ,"name": "HINDU PUSHUPS","time": "X10","kind":2,"src":"https://1.bp.blogspot.com/-sGHxD-CLmCc/W0BpetkgmyI/AAAAAAAAGN0/csN5rYwn-1cDzfcVy1WxgVqfNzBjeveLQCEwYBhgL/s200/Screenshot_20180707-124026__01.jpg"},
+        {"id":18 ,"name": "PUSHUP","time": "X10","kind":2,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":19 ,"name": "COBRA STRETCH","time": "00:20","kind":2,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"id":20 ,"name": "CHEST STRETCH","time": "00:20","kind":2,"src":"https://4.bp.blogspot.com/-jhPvKkHW4CA/WzOJaA3SQoI/AAAAAAAAGII/qb1nc5kmPq8UfkoF3dVE7WfbTq3pGWVEwCPcBGAYYCw/s200/Screenshot_20180627-152115__01.jpg"},
+
+
+        
+
+
+
+        
+        {"id":32 ,"name": "SIDE ARM RAISES","time": "X30","kind":3,"src":"https://2.bp.blogspot.com/-BNIt5DiPNpA/Wzd3pG_dj9I/AAAAAAAAGIg/ulQkfr9ZLpk94X_x0oHOtqXFFOwphkLpgCLcBGAs/s200/Screenshot_20180630-174844__01.jpg"},
+        {"id":33 ,"name": "TRICEPS DIPS","time": "X10","kind":3,"src":"https://2.bp.blogspot.com/-pZ8XTB7t8kQ/Wzd3w7b_95I/AAAAAAAAGIo/X8byRTo9swMUVJzFJjYCMdg9QRPrXKU4gCLcBGAs/s200/Screenshot_20180630-174850__01.jpg"},
+        {"id":34 ,"name": "ARM CIRCLE CLOCKWISE","time": "00:30","kind":3,"src":"https://1.bp.blogspot.com/-dCM4N0GAk5Q/Wzd3620v4VI/AAAAAAAAGIw/vBn81YGic9owaIclRMLMNMIRq7FAkteiACLcBGAs/s1600/Screenshot_20180630-174856__01.jpg"},
+        {"id":35 ,"name": "ARM CIRCLE COUNTERCLOCKWISE","time": "00:30","kind":3,"src":"https://1.bp.blogspot.com/-G6fcOYgw9ak/Wzd4BpYoEcI/AAAAAAAAGI4/mHxw0WODlMUjTS_O1hRIoRyLmwe9YbpUQCLcBGAs/s200/Screenshot_20180630-174900__01.jpg"},
+        {"id":36 ,"name": "DIAMOND PUSHUP","time": "X6","kind":3,"src":"https://1.bp.blogspot.com/-TRIbnMES_gQ/Wzd4ICU6H9I/AAAAAAAAGI8/IEYneCbNCB4mVcsuF5EpEjouy54Z4T4_ACLcBGAs/s200/Screenshot_20180630-174907__01.jpg"},
+        {"id":37 ,"name": "JUMPING JACK","time": "00:30","kind":3,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":38 ,"name": "PUNCHES","time": "X30","kind":3,"src":"https://1.bp.blogspot.com/-AxkPjAqR2mw/Wzd46HXSxfI/AAAAAAAAGJ0/C9W_YHRxQqEGCVmI13Yegg1rA56I-J0tQCLcBGAs/s200/Screenshot_20180630-174954__01.jpg"},
+        {"id":39 ,"name": "DIAGONAL PLANK","time": "X10","kind":3,"src":"https://1.bp.blogspot.com/-G21TlYMBdgY/Wzd4s-ks3kI/AAAAAAAAGJo/0kil-a4fzAsmWZtzOOuDjE05YyOhwXx1gCLcBGAs/s200/Screenshot_20180630-174948__01.jpg"},
+        {"id":40 ,"name": "WALL PUSHUP","time": "X12","kind":3,"src":"https://2.bp.blogspot.com/-WWEZPJrVb7U/WzeMopg20WI/AAAAAAAAGKg/_V_7EaBBZDwMuHQf6WRTtkdvo3-T_nAEACLcBGAs/s200/Screenshot_20180630-175016__01.jpg"},
+
+
+        
+        {"id":42 ,"name": "HELL TOUCH","time": "X26","kind":5,"src":"https://1.bp.blogspot.com/-24oK9Z1hmNA/WzN-iOYfH7I/AAAAAAAAGHo/atmkMu-oFcwHs1dptcWVk5WyBVWumuYmQCPcBGAYYCw/s200/Screenshot_20180627-151711__01.jpg"},
+        {"id":43 ,"name": "CROSSOVER CRUNCH","time": "X20","kind":5,"src":"https://2.bp.blogspot.com/-oXhEfCnkrgQ/WzpZ0oG2O5I/AAAAAAAAGLk/mPIL2YUWqYUtT6cT-uFheUnlIDazL8mzQCPcBGAYYCw/s200/Screenshot_20180702-211140__01.jpg"},
+        {"id":44 ,"name": "MOUNTAIN CLIMBER","time": "X20","kind":5,"src":"https://3.bp.blogspot.com/-J0WuYSMEhoA/WzN-P_QKaLI/AAAAAAAAGHY/i_eAR25xmAkE31fXWBPO5YvUUUC0SoXzwCPcBGAYYCw/s200/Screenshot_20180627-151702__01.jpg"},
+        {"id":45 ,"name": "SIDE BRIDGES LEFT","time": "X12","kind":5,"src":"https://2.bp.blogspot.com/-lJcTE2kC49U/WzpaM_ZD0ZI/AAAAAAAAGL4/bUWcqfcmS5o72R-WUFGe32hDOT1XdnxagCPcBGAYYCw/s200/Screenshot_20180702-211123__01.jpg"},
+        {"id":46 ,"name": "SIDE BRIDGES RIGHT","time": "X12","kind":5,"src":"https://3.bp.blogspot.com/-6MRC_Wem170/WzpaJz8tX4I/AAAAAAAAGL0/qTAlV_CzoKcpvlIKe9Ue2DDskBB-ltXjACPcBGAYYCw/s200/Screenshot_20180702-211114__01.jpg"},
+        {"id":47 ,"name": "BICYCLE CRUNCHES","time": "X20","kind":5,"src":"https://www.thesugarstyles.com/wp-content/uploads/2017/08/Bicycle-Crunches.jpg"},
+        {"id":48 ,"name": "V-UP","time": "X12","kind":5,"src":"https://1.bp.blogspot.com/-unjZ_KU2xc8/Wzpbf0_kSgI/AAAAAAAAGMM/djp7JOvn3OIi7LyZElcMc6hDyEWuMiTaACPcBGAYYCw/s200/Screenshot_20180702-211144__01.jpg"},
+        {"id":49 ,"name": "PUSH-UP & ROTATION","time": "X20","kind":5,"src":"https://2.bp.blogspot.com/-8rQ1gqSgqqk/WzpeSEZaXSI/AAAAAAAAGMY/HePl15gMrw4TMdgYrkBg0C-Yg788C5vUwCPcBGAYYCw/s200/Screenshot_20180702-211205__01.jpg"},
+        {"id":50 ,"name": "SIDE PLANK LEFT","time": "00:20","kind":5,"src":"https://4.bp.blogspot.com/-cMIGpm1lgI4/WzpgeQwLG1I/AAAAAAAAGMw/wxFbZ7A9vDUw-zXjXlwmpSZlYjd6PtI2wCPcBGAYYCw/s200/Screenshot_20180702-211220__01.jpg"},
+        {"id":51 ,"name": "SIDE PLANK RIGHT","time": "00:20","kind":5,"src":"https://1.bp.blogspot.com/-14Qz2NYj5vw/Wzpgo7JBh_I/AAAAAAAAGM0/KlAk-ilnNTkxx6V35HzFH7ImJljIgxy1QCPcBGAYYCw/s200/Screenshot_20180702-211217__01.jpg"},
+        {"id":52 ,"name": "COBRA STRETCH","time": "00:30","kind":5,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"id":53 ,"name": "LEG RAISES","time": "X16","kind":5,"src":"https://2.bp.blogspot.com/-QozcqWSqnlQ/WzN-tqzsZ8I/AAAAAAAAGHg/V-k63czRrNoi2UOM4fc01B3LpA2o3uBSACLcBGAs/s200/Screenshot_20180627-151719__01.jpg"},
+        {"id":54 ,"name": "TWIST STRETCH LEFT","time": "X12","kind":5,"src":"https://2.bp.blogspot.com/-x5VEN71Jkho/WzOJJRfnevI/AAAAAAAAGIA/cZHfd_Gf0McY8Ljle0qrxSTrqDHKZSZiACPcBGAYYCw/s200/Screenshot_20180627-152038__01.jpg"},
+        {"id":55 ,"name": "TWIST STRETCH RIGHT","time": "X12","kind":5,"src":"https://4.bp.blogspot.com/-jhPvKkHW4CA/WzOJaA3SQoI/AAAAAAAAGII/qb1nc5kmPq8UfkoF3dVE7WfbTq3pGWVEwCPcBGAYYCw/s200/Screenshot_20180627-152115__01.jpg"},
+
+
+        
+        {"id":57 ,"name": "KNEES PUSHUP","time": "X12","kind":6,"src":"https://2.bp.blogspot.com/-rEUCzi-dD30/W0BpE-HQTZI/AAAAAAAAGNg/BUa0y3GV3ks26tbHqR9pvzsru7LQhOhfQCLcBGAs/s200/Screenshot_20180707-124101__01.jpg"},
+        {"id":58 ,"name": "PUSHUP","time": "X12","kind":6,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":59 ,"name": "WIDE ARM PUSHUP","time": "X16","kind":6,"src":"https://1.bp.blogspot.com/-_Rmbh6ZufTw/W0BpNWUnbqI/AAAAAAAAGNk/5eT2WQwkDvkdNV_AJ5jq2lBqKMAlPLftACLcBGAs/s200/Screenshot_20180707-124043__01.jpg"},
+        {"id":60 ,"name": "HINDU PUSHUP","time": "X10","kind":6,"src":"https://1.bp.blogspot.com/-sGHxD-CLmCc/W0BpetkgmyI/AAAAAAAAGN0/csN5rYwn-1cDzfcVy1WxgVqfNzBjeveLQCEwYBhgL/s200/Screenshot_20180707-124026__01.jpg"},
+        {"id":61 ,"name": "STAGGERED PUSHUP","time": "X12","kind":6,"src":"https://www.gymguider.com/wp-content/uploads/2018/01/STAGGERED-HAND-PUSH-UP.jpg"},
+        {"id":62 ,"name": "PUSHUP & ROTATION","time": "X12","kind":6,"src":"https://2.bp.blogspot.com/-8rQ1gqSgqqk/WzpeSEZaXSI/AAAAAAAAGMY/HePl15gMrw4TMdgYrkBg0C-Yg788C5vUwCPcBGAYYCw/s200/Screenshot_20180702-211205__01.jpg"},
+        {"id":63 ,"name": "KNEES PUSHUP","time": "X10","kind":6,"src":"https://2.bp.blogspot.com/-rEUCzi-dD30/W0BpE-HQTZI/AAAAAAAAGNg/BUa0y3GV3ks26tbHqR9pvzsru7LQhOhfQCLcBGAs/s200/Screenshot_20180707-124101__01.jpg"},
+        {"id":64 ,"name": "HINDU PUSHUP","time": "X10","kind":6,"src":"https://1.bp.blogspot.com/-sGHxD-CLmCc/W0BpetkgmyI/AAAAAAAAGN0/csN5rYwn-1cDzfcVy1WxgVqfNzBjeveLQCEwYBhgL/s200/Screenshot_20180707-124026__01.jpg"},
+        {"id":65 ,"name": "DECLINE PUSHUP","time": "X12","kind":6,"src":"https://images.cfyc.com.vn/t%E1%BA%ADp%20gym%20nam%202.jpg"},
+        {"id":66 ,"name": "STAGGERED PUSHUP","time": "X10","kind":6,"src":"https://www.gymguider.com/wp-content/uploads/2018/01/STAGGERED-HAND-PUSH-UP.jpg"},
+        {"id":67 ,"name": "SHOULDER STRETCH","time": "00:30","kind":6,"src":"https://www.cdn.spotebi.com/wp-content/uploads/2014/10/shoulder-stretch-exercise-illustration.jpg"},
+        {"id":68 ,"name": "COBRA STRETCH","time": "00:30","kind":6,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"id":69 ,"name": "TWIST STRETCH LEFT","time": "X12","kind":6,"src":"https://2.bp.blogspot.com/-x5VEN71Jkho/WzOJJRfnevI/AAAAAAAAGIA/cZHfd_Gf0McY8Ljle0qrxSTrqDHKZSZiACPcBGAYYCw/s200/Screenshot_20180627-152038__01.jpg"},
+        {"id":70 ,"name": "TWIST STRETCH RIGHT","time": "X12","kind":6,"src":"https://4.bp.blogspot.com/-jhPvKkHW4CA/WzOJaA3SQoI/AAAAAAAAGII/qb1nc5kmPq8UfkoF3dVE7WfbTq3pGWVEwCPcBGAYYCw/s200/Screenshot_20180627-152115__01.jpg"},
+
+
+        
+        {"id":72 ,"name": "ARM CIRCLES COUNTERCLOCKWISE","time": "00:30","kind":7,"src":"https://1.bp.blogspot.com/-G6fcOYgw9ak/Wzd4BpYoEcI/AAAAAAAAGI4/mHxw0WODlMUjTS_O1hRIoRyLmwe9YbpUQCLcBGAs/s200/Screenshot_20180630-174900__01.jpg"},
+        {"id":73 ,"name": "FLOOR TRICEPS DIPS","time": "X14","kind":7,"src":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMJuyihnyK8Vj5ecoVWZKL_8KeW7LYn3HgnNl7qsh5Ucd0JlBc&usqp=CAU"},
+        {"id":74 ,"name": "PUSHUP","time": "X14","kind":7,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":75 ,"name": "ALTERNATING HOOKS","time": "00:30","kind":7,"src":"https://s3.amazonaws.com/prod.skimble/assets/51127/skimble-workout-trainer-exercise-left-hooks-2_iphone.jpg"},
+        {"id":76 ,"name": "LEG BARBELL CURL LEFT","time": "X12","kind":7,"src":"https://1.bp.blogspot.com/-LFowsMdDMy4/Wzd4gvdalXI/AAAAAAAAGJc/LN8u2a-I-pM1gAx8-fHxcBqgmCQRkYtdACLcBGAs/s200/Screenshot_20180630-174940__01.jpg"},
+        {"id":77 ,"name": "LEG BARBELL CURL RIGHT","time": "X12","kind":7,"src":"https://2.bp.blogspot.com/-SsuYaztpXK0/Wzd4lT4YDWI/AAAAAAAAGJg/2E4MVOMJNTkX_6A_P6OoJBwlVVwcdr-xwCLcBGAs/s200/Screenshot_20180630-174943__01.jpg"},
+        {"id":78 ,"name": "FLOOR TRICEPS DIPS","time": "X12","kind":7,"src":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMJuyihnyK8Vj5ecoVWZKL_8KeW7LYn3HgnNl7qsh5Ucd0JlBc&usqp=CAU"},
+        {"id":79 ,"name": "PUSHUP","time": "X10","kind":7,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":80 ,"name": "ALTERNATING HOOK","time": "00:30","kind":7,"src":"https://s3.amazonaws.com/prod.skimble/assets/51127/skimble-workout-trainer-exercise-left-hooks-2_iphone.jpg"},
+        {"id":81 ,"name": "PUSHUP & ROTATION","time": "X10","kind":7,"src":"https://2.bp.blogspot.com/-8rQ1gqSgqqk/WzpeSEZaXSI/AAAAAAAAGMY/HePl15gMrw4TMdgYrkBg0C-Yg788C5vUwCPcBGAYYCw/s200/Screenshot_20180702-211205__01.jpg"},
+        {"id":82 ,"name": "LEG BARBELL CURL LEFT","time": "X10","kind":7,"src":"https://1.bp.blogspot.com/-LFowsMdDMy4/Wzd4gvdalXI/AAAAAAAAGJc/LN8u2a-I-pM1gAx8-fHxcBqgmCQRkYtdACLcBGAs/s200/Screenshot_20180630-174940__01.jpg"},
+        {"id":83 ,"name": "LEG BARBELL CURL RIGHT","time": "X10","kind":7,"src":"https://2.bp.blogspot.com/-SsuYaztpXK0/Wzd4lT4YDWI/AAAAAAAAGJg/2E4MVOMJNTkX_6A_P6OoJBwlVVwcdr-xwCLcBGAs/s200/Screenshot_20180630-174943__01.jpg"},
+        {"id":84 ,"name": "SKIPPING WITHOUT ROPE","time": "00:30","kind":7,"src":"https://s3.amazonaws.com/prod.skimble/assets/1625595/image_iphone.jpg"},
+        {"id":85 ,"name": "PUSHUP","time": "X14","kind":7,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+
+        
+
+
+
+        
+        {"id":102, "name":"SIT UP", "time": "X20","kind":9},
+        {"id":103, "name":"SIDE BRIDGES LEFT", "time": "X20","kind":9,"src":"https://2.bp.blogspot.com/-lJcTE2kC49U/WzpaM_ZD0ZI/AAAAAAAAGL4/bUWcqfcmS5o72R-WUFGe32hDOT1XdnxagCPcBGAYYCw/s200/Screenshot_20180702-211123__01.jpg"},
+        {"id":104, "name":"SIDE BRIDGES RIGHT", "time": "X20","kind":9,"src":"https://3.bp.blogspot.com/-6MRC_Wem170/WzpaJz8tX4I/AAAAAAAAGL0/qTAlV_CzoKcpvlIKe9Ue2DDskBB-ltXjACPcBGAYYCw/s200/Screenshot_20180702-211114__01.jpg"},
+        {"id":105, "name":"ABDOMINAL CRUNCHES", "time": "X30","kind":9,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
+        {"id":106, "name":"BICYCLE CRUNCHES", "time": "X24","kind":9,"src":"https://www.thesugarstyles.com/wp-content/uploads/2017/08/Bicycle-Crunches.jpg"},
+        {"id":107, "name":"SIDE PLANK RIGHT", "time": "00:30","kind":9,"src":"https://1.bp.blogspot.com/-14Qz2NYj5vw/Wzpgo7JBh_I/AAAAAAAAGM0/KlAk-ilnNTkxx6V35HzFH7ImJljIgxy1QCPcBGAYYCw/s200/Screenshot_20180702-211217__01.jpg"},
+        {"id":108, "name":"SIDE PLANK LEFT", "time": "00:30","kind":9,"src":"https://4.bp.blogspot.com/-cMIGpm1lgI4/WzpgeQwLG1I/AAAAAAAAGMw/wxFbZ7A9vDUw-zXjXlwmpSZlYjd6PtI2wCPcBGAYYCw/s200/Screenshot_20180702-211220__01.jpg"},
+        {"id":109, "name":"V UP", "time": "X18","kind":9,"src":"https://1.bp.blogspot.com/-unjZ_KU2xc8/Wzpbf0_kSgI/AAAAAAAAGMM/djp7JOvn3OIi7LyZElcMc6hDyEWuMiTaACPcBGAYYCw/s200/Screenshot_20180702-211144__01.jpg"},
+        {"id":110, "name":"PUSH UP & ROTATION", "time": "24","kind":9,"src":"https://2.bp.blogspot.com/-8rQ1gqSgqqk/WzpeSEZaXSI/AAAAAAAAGMY/HePl15gMrw4TMdgYrkBg0C-Yg788C5vUwCPcBGAYYCw/s200/Screenshot_20180702-211205__01.jpg"},
+        {"id":111, "name":"RUSSIAN TWIST", "time": "X48","kind":9,"src":"https://2.bp.blogspot.com/-5CpqCp6N8Kc/WzN-AHlfKyI/AAAAAAAAGHU/YU51PT1B3DoPXZFPI7H1okSm7v0nL6PWACPcBGAYYCw/s200/Screenshot_20180627-151635__01.jpg"},
+        {"id":112, "name":"ABDOMINAL CRUNCHES", "time": "X28","kind":9,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
+        {"id":113, "name":"BUTT BRIDGE", "time": "X30","kind":9,"src":"https://3.bp.blogspot.com/--SuLrt4luMg/WzpaZlyJcaI/AAAAAAAAGL8/6y3bNIs9x_MKgUtk-QGhgkObtoKUMsRagCPcBGAYYCw/s200/Screenshot_20180702-211129__01.jpg"},
+        {"id":114, "name":"HELL TOUCH", "time": "X34","kind":9,"src":"https://1.bp.blogspot.com/-24oK9Z1hmNA/WzN-iOYfH7I/AAAAAAAAGHo/atmkMu-oFcwHs1dptcWVk5WyBVWumuYmQCPcBGAYYCw/s200/Screenshot_20180627-151711__01.jpg"},
+        {"id":115, "name":"MOUNTAIN CLIMBER", "time": "X30","kind":9,"src":"https://3.bp.blogspot.com/-J0WuYSMEhoA/WzN-P_QKaLI/AAAAAAAAGHY/i_eAR25xmAkE31fXWBPO5YvUUUC0SoXzwCPcBGAYYCw/s200/Screenshot_20180627-151702__01.jpg"},
+        {"id":116, "name":"CROSSOVER CRUNCH", "time": "X24","kind":9,"src":"https://2.bp.blogspot.com/-oXhEfCnkrgQ/WzpZ0oG2O5I/AAAAAAAAGLk/mPIL2YUWqYUtT6cT-uFheUnlIDazL8mzQCPcBGAYYCw/s200/Screenshot_20180702-211140__01.jpg"},
+        {"id":117, "name":"V UP", "time": "X16","kind":9,"src":"https://1.bp.blogspot.com/-unjZ_KU2xc8/Wzpbf0_kSgI/AAAAAAAAGMM/djp7JOvn3OIi7LyZElcMc6hDyEWuMiTaACPcBGAYYCw/s200/Screenshot_20180702-211144__01.jpg"},
+        {"id":118, "name":"PLANK", "time": "01:00","kind":9,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
+        {"id":119, "name":"COBRA STRETCH", "time": "00:30","kind":9,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"id":120, "name":"JUMPING JACK", "time": "00:30","kind":9,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        
+        
+        
+        {"id":122, "name":"ARM CIRCLES CLOCKWISE", "time": "X20","kind":10,"src":"https://1.bp.blogspot.com/-dCM4N0GAk5Q/Wzd3620v4VI/AAAAAAAAGIw/vBn81YGic9owaIclRMLMNMIRq7FAkteiACLcBGAs/s1600/Screenshot_20180630-174856__01.jpg"},
+        {"id":123, "name":"SHOULDER STRETCH", "time": "00:30","kind":10,"src":"https://www.cdn.spotebi.com/wp-content/uploads/2014/10/shoulder-stretch-exercise-illustration.jpg"},
+        {"id":124, "name":"BURPEES", "time": "10","kind":10,"src":"https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/burpees.png"},
+        {"id":125, "name":"STAGGERED PUSHUP", "time": "X16","kind":10,"src":"https://www.gymguider.com/wp-content/uploads/2018/01/STAGGERED-HAND-PUSH-UP.jpg"},
+        {"id":126, "name":"HINDU PUSHUP", "time": "X16","kind":10,"src":"https://1.bp.blogspot.com/-sGHxD-CLmCc/W0BpetkgmyI/AAAAAAAAGN0/csN5rYwn-1cDzfcVy1WxgVqfNzBjeveLQCEwYBhgL/s200/Screenshot_20180707-124026__01.jpg"},
+        {"id":127, "name":"PUSHUP & ROTATION", "time": "X12","kind":10,"src":"https://2.bp.blogspot.com/-8rQ1gqSgqqk/WzpeSEZaXSI/AAAAAAAAGMY/HePl15gMrw4TMdgYrkBg0C-Yg788C5vUwCPcBGAYYCw/s200/Screenshot_20180702-211205__01.jpg"},
+        {"id":128, "name":"DIAMOND PUSHUP", "time": "X16","kind":10,"src":"https://1.bp.blogspot.com/-TRIbnMES_gQ/Wzd4ICU6H9I/AAAAAAAAGI8/IEYneCbNCB4mVcsuF5EpEjouy54Z4T4_ACLcBGAs/s200/Screenshot_20180630-174907__01.jpg"},
+        {"id":129, "name":"BOX PUSHUP", "time": "X12","kind":10,"src":"https://1.bp.blogspot.com/-ghi6sCe6SMc/W0BpTt4g7yI/AAAAAAAAGNo/CAdFn-cMFjUiCSugGMtCmXjsNAHeiktbgCLcBGAs/s200/Screenshot_20180707-124048__01.jpg"},
+        {"id":130, "name":"HINDU PUSHUP", "time": "X12","kind":10,"src":"https://1.bp.blogspot.com/-sGHxD-CLmCc/W0BpetkgmyI/AAAAAAAAGN0/csN5rYwn-1cDzfcVy1WxgVqfNzBjeveLQCEwYBhgL/s200/Screenshot_20180707-124026__01.jpg"},
+        {"id":131, "name":"JUMPING JACK", "time": "00:30","kind":10,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
+        {"id":132, "name":"DECLINE PUSHUP", "time": "00:30","kind":10,"src":"https://images.cfyc.com.vn/t%E1%BA%ADp%20gym%20nam%202.jpg"},
+        {"id":133, "name":"SPIDERMAN PUSHUP", "time": "X20","kind":10,"src":"https://www.trainwithkhaled.com/wp-content/uploads/2017/01/23-spiderman-pushup_0-620x384.jpg"},
+        {"id":134, "name":"COBRA STRETCH", "time": "00:30","kind":10,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"id":135, "name":"CHEST STRETCH", "time": "00:30","kind":10,"src":"https://4.bp.blogspot.com/-jhPvKkHW4CA/WzOJaA3SQoI/AAAAAAAAGII/qb1nc5kmPq8UfkoF3dVE7WfbTq3pGWVEwCPcBGAYYCw/s200/Screenshot_20180627-152115__01.jpg"},
+       
+        
+        
+        {"id":137, "name":"ARM CIRCLES COUNTERCLOCKWISE", "time": "00:30","kind":11,"src":"https://1.bp.blogspot.com/-G6fcOYgw9ak/Wzd4BpYoEcI/AAAAAAAAGI4/mHxw0WODlMUjTS_O1hRIoRyLmwe9YbpUQCLcBGAs/s200/Screenshot_20180630-174900__01.jpg"},
+        {"id":138, "name":"SKIPPING WITHOUT ROPE", "time": "00:30","kind":11,"src":"https://s3.amazonaws.com/prod.skimble/assets/1625595/image_iphone.jpg"},
+        {"id":139, "name":"LEG BARBELL CURL LEFT", "time": "X16","kind":11,"src":"https://1.bp.blogspot.com/-LFowsMdDMy4/Wzd4gvdalXI/AAAAAAAAGJc/LN8u2a-I-pM1gAx8-fHxcBqgmCQRkYtdACLcBGAs/s200/Screenshot_20180630-174940__01.jpg"},
+        {"id":140, "name":"LEG BARBELL CURL RIGHT", "time": "X16","kind":11,"src":"https://2.bp.blogspot.com/-SsuYaztpXK0/Wzd4lT4YDWI/AAAAAAAAGJg/2E4MVOMJNTkX_6A_P6OoJBwlVVwcdr-xwCLcBGAs/s200/Screenshot_20180630-174943__01.jpg"},
+        {"id":141, "name":"BURPEES", "time": "X16","kind":11,"src":"https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/burpees.png"},
+        {"id":142, "name":"ARM CURLS CRUNCH LEFT", "time": "X14","kind":11,"src":"https://i.ytimg.com/vi/FrFyUbxs1uQ/maxresdefault.jpg"},
+        {"id":143, "name":"ARM CURLS CRUNCH RIGHT", "time": "X14","kind":11,"src":"https://i.ytimg.com/vi/FrFyUbxs1uQ/maxresdefault.jpg"},
+        {"id":144, "name":"FLOOR TRICEPS DIPS", "time": "X18","kind":11,"src":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRMJuyihnyK8Vj5ecoVWZKL_8KeW7LYn3HgnNl7qsh5Ucd0JlBc&usqp=CAU"},
+        {"id":145, "name":"ALTERNATING HOOKS", "time": "00:30","kind":11,"src":"https://s3.amazonaws.com/prod.skimble/assets/51127/skimble-workout-trainer-exercise-left-hooks-2_iphone.jpg"},
+        {"id":146, "name":"PUSHUP", "time": "X14","kind":11,"src":"https://4.bp.blogspot.com/-EdMyqZ2eI-Y/Wzd5Dio1KWI/AAAAAAAAGJ8/iRNrcqFsjas3TTRr0oZ5RBr7BNv69jleACLcBGAs/s200/Screenshot_20180630-175000__01.jpg"},
+        {"id":147, "name":"SHOULDER GATORS", "time": "X16","kind":11,"src":"https://i.ytimg.com/vi/CFXTdrcTQ-0/maxresdefault.jpg"},
+        {"id":148, "name":"BURPEES", "time": "X16","kind":11,"src":"https://www.fitstream.com/images/bodyweight-training/bodyweight-exercises/burpees.png"},
+        {"id":149, "name":"STANDING BICEPS STRETCH LEFT", "time": "00:30","kind":11,"src":"https://2.bp.blogspot.com/-KZ8QGWJ718c/WzeMxDMXg-I/AAAAAAAAGKs/HJXiOTgbTMEGzqeos86tT55fIxmtQWoTwCEwYBhgL/s200/Screenshot_20180630-175023__01.jpg"},
+        {"id":150, "name":"STANDING BICEPS STRETCH RIGHT", "time": "00:30","kind":11,"src":"https://1.bp.blogspot.com/-b-YgOSXjnK0/WzeMxh8b4jI/AAAAAAAAGK0/ux3lN1QwY5sNxX43nj4vOi7ix5H-G96PACEwYBhgL/s200/Screenshot_20180630-175025__01.jpg"}   
+
+        
+        
+      
+    ],
+
+    
+    "categories": [
+        {
+        "data":[
+          {
+            "id": 1, 
+            "name": "ABS_BEGINNER", 
+            "src":"https://www.telegraph.co.uk/content/dam/men/2016/07/25/FFX9WJ_trans%2B%2BZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.jpg"
+            },
+          {
+              "id": 2, 
+              "name": "CHEST_BEGINNER", 
+              "src":"https://outliveforever.com/wp-content/uploads/2019/02/best-bodyweight-workout-no-equipment-home-men-women-married-beginner.jpg"
+            },
+          {
+              "id": 3,
+              "name": "ARM_BEGINNER",
+              "src":"https://images.ctfassets.net/90pc6zknij8o/10BAFJIPh1f7ycYYDkqr2C/98a195353bfdbfb587a3da0455b5ffec/arm-workouts-at-home-exercises-e1537804339687.jpg?w=1200&h=630&fl=progressive&q=50&fit=fill&f=faces"
+            }
+
+        ],
+        "title":"BEGINNER"  
+        },
+        {
+        "data":[
+          {
+              "id": 5,
+              "name": "ABS_INTERMEDIATE",
+              "src":"https://www.telegraph.co.uk/content/dam/men/2016/07/25/FFX9WJ_trans%2B%2BZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.jpg"
+            },
+          {
+              "id": 6,
+              "name": "CHEST_INTERMEDIATE",
+              "src":"https://outliveforever.com/wp-content/uploads/2019/02/best-bodyweight-workout-no-equipment-home-men-women-married-beginner.jpg"
+            },
+          {
+              "id": 7,
+              "name": "ARM_INTERMEDIATE",
+              "src":"https://images.ctfassets.net/90pc6zknij8o/10BAFJIPh1f7ycYYDkqr2C/98a195353bfdbfb587a3da0455b5ffec/arm-workouts-at-home-exercises-e1537804339687.jpg?w=1200&h=630&fl=progressive&q=50&fit=fill&f=faces"
+            }
+
+        ],
+        "title":"INTERMEDIATE"  
+        },
+        {
+          "data":[
+            {
+                "id": 9,
+                "name": "ABS_ADVANCED",
+                "src":"https://www.telegraph.co.uk/content/dam/men/2016/07/25/FFX9WJ_trans%2B%2BZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.jpg"
+              },
+            {
+                "id": 10,
+                "name": "CHEST_ADVANCED",
+                "src":"https://outliveforever.com/wp-content/uploads/2019/02/best-bodyweight-workout-no-equipment-home-men-women-married-beginner.jpg"
+              },
+            {
+                "id": 11,
+                "name": "ARM_ADVANCED",
+                "src":"https://images.ctfassets.net/90pc6zknij8o/10BAFJIPh1f7ycYYDkqr2C/98a195353bfdbfb587a3da0455b5ffec/arm-workouts-at-home-exercises-e1537804339687.jpg?w=1200&h=630&fl=progressive&q=50&fit=fill&f=faces"
+              }
+
+          ],
+          "title":"ADVANCED"  
+          } 
+      ]
+
+}
