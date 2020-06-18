@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React,{useState} from 'react';
 import {
   SafeAreaView,
   StyleSheet,
@@ -9,7 +9,8 @@ import {
   Button,
   Alert,
   TouchableOpacity,
-  FlatList
+  FlatList,
+  CheckBox
 } from 'react-native';
 import data from './db.json';
 import ListCheckExercise from '../component/ListCheckExercise'
@@ -19,17 +20,20 @@ export default class DetailScreen extends React.Component{
     super(props)
     this.state ={
       count: 0,
-      checkExercise: []
+      list: [],
+      check: {},
+      n:0
     }
   }
-  
+ 
   //static: any;
 
 
   componentDidMount(){
-    const kindCheck = this.props.route.params.checkKind;
+    const _arr = this.props.route.params.arr;
     this.setState( {
-      checkExercise: data.exercises.filter(x=>x.kind===kindCheck)
+      list: _arr
+      
     });
   }
 
@@ -44,27 +48,78 @@ export default class DetailScreen extends React.Component{
       })
     }, 1000);
   }
+  
+checkBox_Test = (id) => {
+  const checkCopy = {...this.state.check}
+  if (checkCopy[id]) {checkCopy[id] = false; this.setState({n:this.state.n -1})}
+  else {checkCopy[id] = true; this.setState({n:this.state.n +1})}
+  this.setState({ check: checkCopy });
+}
+  
+  toggleChange(){
+    this.setState({checked: !this.state.checked});
+  }
+  appButtonContainer=(arrL, m) =>{
+    if(arrL===m){
+    return{
+      position:'absolute',
+      width:'95%',
+      height:40,
+      justifyContent:'center', 
+      bottom:0,
+      elevation: 8,
+      backgroundColor: "black",
+      borderRadius: 10,
+      marginHorizontal:10,
+      marginBottom:5
+    }
+  }
+  }
 
-
+  Content =(arrL, m) =>{
+    if(arrL===m){
+      return{
+        marginBottom:50
+      }
+    }
+    else{
+      return{
+        marginBottom:20
+      }
+    }
+  }
 
   render(){
     const {navigation} = this.props;
     const {count} = this.state;
-    const {checkExercise}=this.state;
-    
+    const {list}=this.state;
+    const{n}=this.state;
   
     return(
       <View>
-            <View style={style.Content}>
+            <View style={this.Content(list.length,n)}>
             <FlatList 
-              data={checkExercise}
+              data={list}
               keyExtractor={item => `${item.id}`}
-              renderItem={({ item }) => <ListCheckExercise exercise ={item} />} 
+              renderItem={({ item, index }) => {
+                return(
+                <View style={style.List}> 
+                <ListCheckExercise exercise ={item} />
+                <CheckBox style={style.checkbox}
+                   value = { this.state.check[item.id] }
+                   onChange = {() => this.checkBox_Test(item.id) }
+                  />
+                </View>
+              
+              )
+              
+            }}
+              extraData={this.state} 
             />
             </View>
             <View style={style.CustomButton}>
-            <TouchableOpacity  style={style.appButtonContainer}>
-                <Text  style={style.appButtonText} >Finish </Text>
+            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => navigation.navigate('DetailScreen')} >
+                <Text  style={style.appButtonText}> The End </Text>
             </TouchableOpacity>
             </View>
         </View>
@@ -73,9 +128,15 @@ export default class DetailScreen extends React.Component{
 }
 const style = StyleSheet.create({
   Content:{
-    marginBottom:50
+    marginBottom:30
   },
-  
+  List:{
+    
+  },
+  checkbox:{
+    alignSelf:"center",
+    padding:20
+  },
   appButtonContainer: {
     position:'absolute',
     width:'95%',

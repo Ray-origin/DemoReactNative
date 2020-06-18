@@ -4,8 +4,6 @@ import {
     Image,
     Text,
     StyleSheet,
-    TouchableOpacity,
-    CheckBox
 } from 'react-native'
 
 
@@ -13,7 +11,7 @@ import {
 
 export default function ListCheckExercise (props) {
     const { exercise, check} = props;
-    const [isSelected, setSelection] = useState(false);
+   
    
     return (
       
@@ -23,11 +21,7 @@ export default function ListCheckExercise (props) {
         </View>
         <View >
             <Text >{exercise.time} </Text>
-            <CheckBox
-            value={isSelected}
-            onValueChange={setSelection}
-            style={style.checkbox}
-        />
+            
         </View>
       </View>
     
@@ -42,14 +36,14 @@ const style = StyleSheet.create({
       borderRadius:4,
       backgroundColor:'#A9F5F2',
       elevation:10,
-      marginBottom: 16,
+      marginBottom: 0,
       alignItems:"center"
     },
     checkbox: {
         alignSelf: "center",
     },
     bigImage: {
-        height:250,
-        width:250
+        height:200,
+        width:200
     },
   });

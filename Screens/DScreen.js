@@ -52,7 +52,7 @@ export default class DetailScreen extends React.Component{
             </View>
             <View style={style.CustomButton}>
             <TouchableOpacity style={style.appButtonContainer} onPress={() => navigation.navigate('DetailScreen',{
-              
+              arr:exercises,
               checkKind: getKind
             })}>
                 <Text  style={style.appButtonText} >Start </Text>

@@ -12,15 +12,15 @@
         {"id":121, "name":"JUMPING JACK", "time": "00:30","kind":10,"src":"https://1.bp.blogspot.com/-A2VV7yJE8-k/WzN8SKpdfKI/AAAAAAAAGGw/g40N_kNe8dkAp97zhKmyz2wonGoDfYDQgCPcBGAYYCw/s200/Screenshot_20180627-151605__01__01.jpg"},
         {"id":136, "name":"ARM CIRCLES CLOCKWISE", "time": "00:30","kind":11,"src":"https://1.bp.blogspot.com/-dCM4N0GAk5Q/Wzd3620v4VI/AAAAAAAAGIw/vBn81YGic9owaIclRMLMNMIRq7FAkteiACLcBGAs/s1600/Screenshot_20180630-174856__01.jpg"},
 
-        {"id":2 ,"name": "ABDOMINAL CRUNCHES","time": "X16","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},   
-        {"id":3 ,"name": "MOUNTAIN CLIMBER","time": "X16","kind":1,"src":"https://3.bp.blogspot.com/-J0WuYSMEhoA/WzN-P_QKaLI/AAAAAAAAGHY/i_eAR25xmAkE31fXWBPO5YvUUUC0SoXzwCPcBGAYYCw/s200/Screenshot_20180627-151702__01.jpg"},
-        {"id":4 ,"name": "HELL TOUCH","time": "X20","kind":1,"src":"https://1.bp.blogspot.com/-24oK9Z1hmNA/WzN-iOYfH7I/AAAAAAAAGHo/atmkMu-oFcwHs1dptcWVk5WyBVWumuYmQCPcBGAYYCw/s200/Screenshot_20180627-151711__01.jpg"},
-        {"id":5 ,"name": "LEGS RAISES","time": "X16","kind":1,"src":"https://2.bp.blogspot.com/-QozcqWSqnlQ/WzN-tqzsZ8I/AAAAAAAAGHg/V-k63czRrNoi2UOM4fc01B3LpA2o3uBSACLcBGAs/s200/Screenshot_20180627-151719__01.jpg"},
-        {"id":6 ,"name": "PLANK","time": "00:20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
-        {"id":7 ,"name": "ABDOMINAL CRUNCHES","time": "X12","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
-        {"id":8 ,"name": "RUSSIAN TWIST","time": "X32","kind":1,"src":"https://2.bp.blogspot.com/-5CpqCp6N8Kc/WzN-AHlfKyI/AAAAAAAAGHU/YU51PT1B3DoPXZFPI7H1okSm7v0nL6PWACPcBGAYYCw/s200/Screenshot_20180627-151635__01.jpg"},
-        {"id":9 ,"name": "PLANK","time": "X20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
-        {"id":10 ,"name": "COBRA STRETCH","time": "00:30","kind":1,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
+        {"checked":"false","id":2 ,"name": "ABDOMINAL CRUNCHES","time": "X16","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},   
+        {"checked":"false","id":3 ,"name": "MOUNTAIN CLIMBER","time": "X16","kind":1,"src":"https://3.bp.blogspot.com/-J0WuYSMEhoA/WzN-P_QKaLI/AAAAAAAAGHY/i_eAR25xmAkE31fXWBPO5YvUUUC0SoXzwCPcBGAYYCw/s200/Screenshot_20180627-151702__01.jpg"},
+        {"checked":"false","id":4 ,"name": "HELL TOUCH","time": "X20","kind":1,"src":"https://1.bp.blogspot.com/-24oK9Z1hmNA/WzN-iOYfH7I/AAAAAAAAGHo/atmkMu-oFcwHs1dptcWVk5WyBVWumuYmQCPcBGAYYCw/s200/Screenshot_20180627-151711__01.jpg"},
+        {"checked":"false","id":5 ,"name": "LEGS RAISES","time": "X16","kind":1,"src":"https://2.bp.blogspot.com/-QozcqWSqnlQ/WzN-tqzsZ8I/AAAAAAAAGHg/V-k63czRrNoi2UOM4fc01B3LpA2o3uBSACLcBGAs/s200/Screenshot_20180627-151719__01.jpg"},
+        {"checked":"false","id":6 ,"name": "PLANK","time": "00:20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
+        {"checked":"false","id":7 ,"name": "ABDOMINAL CRUNCHES","time": "X12","kind":1,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
+        {"checked":"false","id":8 ,"name": "RUSSIAN TWIST","time": "X32","kind":1,"src":"https://2.bp.blogspot.com/-5CpqCp6N8Kc/WzN-AHlfKyI/AAAAAAAAGHU/YU51PT1B3DoPXZFPI7H1okSm7v0nL6PWACPcBGAYYCw/s200/Screenshot_20180627-151635__01.jpg"},
+        {"checked":"false","id":9 ,"name": "PLANK","time": "X20","kind":1,"src":"https://2.bp.blogspot.com/-GIdhSF7SMZg/WzN-46_tTJI/AAAAAAAAGHk/1RLemCyW4uY0x1PbxK_1aQF8VxwTLDpcQCLcBGAs/s200/Screenshot_20180627-151731__01__01.jpg"},
+        {"checked":"false","id":10 ,"name": "COBRA STRETCH","time": "00:30","kind":1,"src":"https://2.bp.blogspot.com/-_7CfdP3cL74/WzOImvpCORI/AAAAAAAAGH4/93k2EhZ2AdcaSLrJx9YTP_hg3sDDb6HTwCPcBGAYYCw/s200/Screenshot_20180627-152007__01.jpg"},
 
         
         
