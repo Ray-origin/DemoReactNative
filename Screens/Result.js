@@ -17,15 +17,15 @@ export default class Result extends React.Component  {
             count:0,
         }
     }
-      componentDidMount(){
-    const counter= this.props.route.params.exercise.count;
-    this.setState({
-      count:counter
-    });
-  }
+//       componentDidMount(){
+//     const counter= this.props.route.params.Acounter.count;
+//     this.setState({
+//       count:counter
+//     });
+//   }
     render(){
     const {navigation} = this.props;        
-    const {Dem} = this.state;
+    const {Dem} = this.state.count;
         return(
             <View style={style.banner}>
                 <Image source={{uri: 'https://advantagetrophy.com/wp-content/uploads/2019/05/advantage-trophy-logo.png'}}
@@ -42,7 +42,7 @@ export default class Result extends React.Component  {
 
                     </TouchableOpacity>
                 </View>
-                <Text>{Ccounter}</Text>
+                <Text>{Dem}</Text>
             </View>
 
         )

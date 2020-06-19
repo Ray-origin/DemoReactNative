@@ -106,7 +106,7 @@
 
 
         
-        {"id":102, "name":"SIT UP", "time": "X20","kind":9},
+        {"id":102, "name":"SIT UP", "time": "X20","kind":9,"src":"https://storage.googleapis.com/sworkit-assets/images/exercises/standard/middle-frame/sit-up.jpg"},
         {"id":103, "name":"SIDE BRIDGES LEFT", "time": "X20","kind":9,"src":"https://2.bp.blogspot.com/-lJcTE2kC49U/WzpaM_ZD0ZI/AAAAAAAAGL4/bUWcqfcmS5o72R-WUFGe32hDOT1XdnxagCPcBGAYYCw/s200/Screenshot_20180702-211123__01.jpg"},
         {"id":104, "name":"SIDE BRIDGES RIGHT", "time": "X20","kind":9,"src":"https://3.bp.blogspot.com/-6MRC_Wem170/WzpaJz8tX4I/AAAAAAAAGL0/qTAlV_CzoKcpvlIKe9Ue2DDskBB-ltXjACPcBGAYYCw/s200/Screenshot_20180702-211114__01.jpg"},
         {"id":105, "name":"ABDOMINAL CRUNCHES", "time": "X30","kind":9,"src":"https://1.bp.blogspot.com/-NyP8Cs6UaZc/WzN9v3aC7bI/AAAAAAAAGHE/RFh2FDTr0oAVR1X_DXR2t5_xlmsJ4Tb4ACPcBGAYYCw/s200/Screenshot_20180627-151626__01.jpg"},
@@ -193,17 +193,17 @@
           {
               "id": 5,
               "name": "ABS_INTERMEDIATE",
-              "src":"https://www.telegraph.co.uk/content/dam/men/2016/07/25/FFX9WJ_trans%2B%2BZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.jpg"
+              "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSunoCoqllgs7Voo0TrhPAmJcKMeRU8iguioBPrU-DWLb-NuPsP&usqp=CAU"
             },
           {
               "id": 6,
               "name": "CHEST_INTERMEDIATE",
-              "src":"https://outliveforever.com/wp-content/uploads/2019/02/best-bodyweight-workout-no-equipment-home-men-women-married-beginner.jpg"
+              "src":"https://daman.co.id/daman.co.id/wp-content/uploads/2020/03/Weight-Loss-Exercises-for-Men-At-Home-1024x786.jpg"
             },
           {
               "id": 7,
               "name": "ARM_INTERMEDIATE",
-              "src":"https://images.ctfassets.net/90pc6zknij8o/10BAFJIPh1f7ycYYDkqr2C/98a195353bfdbfb587a3da0455b5ffec/arm-workouts-at-home-exercises-e1537804339687.jpg?w=1200&h=630&fl=progressive&q=50&fit=fill&f=faces"
+              "src":"https://www.mensjournal.com/wp-content/uploads/mf/muscular_male_arms_forearms_biceps_main.jpg?w=1200"
             }
 
         ],
@@ -214,17 +214,17 @@
             {
                 "id": 9,
                 "name": "ABS_ADVANCED",
-                "src":"https://www.telegraph.co.uk/content/dam/men/2016/07/25/FFX9WJ_trans%2B%2BZgEkZX3M936N5BQK4Va8RWtT0gK_6EfZT336f62EI5U.jpg"
+                "src":"https://www.mensjournal.com/wp-content/uploads/mf/1280-abs-hanging-pull.jpg"
               },
             {
                 "id": 10,
                 "name": "CHEST_ADVANCED",
-                "src":"https://outliveforever.com/wp-content/uploads/2019/02/best-bodyweight-workout-no-equipment-home-men-women-married-beginner.jpg"
+                "src":"https://i0.wp.com/kingofthegym.com/wp-content/uploads/2012/11/chest-anatomy.jpg"
               },
             {
                 "id": 11,
                 "name": "ARM_ADVANCED",
-                "src":"https://images.ctfassets.net/90pc6zknij8o/10BAFJIPh1f7ycYYDkqr2C/98a195353bfdbfb587a3da0455b5ffec/arm-workouts-at-home-exercises-e1537804339687.jpg?w=1200&h=630&fl=progressive&q=50&fit=fill&f=faces"
+                "src":"https://qph.fs.quoracdn.net/main-qimg-411592b708fb433d002c06e2647c0e9b"
               }
 
           ],

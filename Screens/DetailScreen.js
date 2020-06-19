@@ -9,7 +9,8 @@ import {
   Alert,
   TouchableOpacity,
   FlatList,
-  CheckBox
+  CheckBox,
+  Linking
 } from 'react-native';
 import data from './db.json';
 import ListCheckExercise from '../component/ListCheckExercise';
@@ -36,12 +37,12 @@ export default class DetailScreen extends React.Component{
       
     });
   }
-      componentDidMount(){
-    const counter= this.props.route.params.exercise.count;
-    this.setState({
-      count:counter
-    });
-  }
+  //     componentDidMount(){
+  //   const counter= this.props.route.params.exercise.count;
+  //   this.setState({
+  //     count:counter
+  //   });
+  // }
 
 
 
@@ -103,6 +104,7 @@ checkBox_Test = (id) => {
   
     return(
       <View>
+
             <View style={this.Content(list.length,n)}>
             <FlatList 
               data={list}
@@ -124,7 +126,7 @@ checkBox_Test = (id) => {
             />
             </View>
             <View style={style.CustomButton}>
-            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => navigation.navigate('Result'),{Bcounter:counter}} >
+            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => navigation.navigate('Result')} >
                 <Text  style={style.appButtonText}> The End </Text>
             </TouchableOpacity>
             </View>

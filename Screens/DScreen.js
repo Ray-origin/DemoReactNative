@@ -49,6 +49,10 @@ export default class DetailScreen extends React.Component{
     const {navigation} = this.props;
     return(
         <View>
+            {/* <Button
+              title="HOW TO DO IT"
+              onPress={() => Linking.openURL('https://sworkit.com/exercises')}
+            />         */}
             <View style={style.Content}>
             <FlatList 
               data={exercises}

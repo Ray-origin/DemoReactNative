@@ -6,9 +6,6 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from 'react-native'
-// import theboy2 from '../Images/theboy2.jpg'
-
-
 
 export default function ListItems (props) {
     const { ChangeID,onPress,ChangeImg } = props;
@@ -25,8 +22,9 @@ export default function ListItems (props) {
 
 const style = StyleSheet.create({
   ImageStyle:{
-    width: 120,
-    height: 120,
+    // width: 371.4,
+    height: 187.4,
+    alignItems:'stretch'
   },
 
   title:{
