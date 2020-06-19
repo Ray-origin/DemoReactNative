@@ -1,63 +1,165 @@
-
-import React from 'react';
+import React,{useState} from 'react';
 import {
-  Button,
+  SafeAreaView,
   StyleSheet,
   View,
   Text,
   Image,
+  Button,
+  Alert,
+  TouchableOpacity,
+  FlatList,
+  CheckBox
 } from 'react-native';
+import data from './db.json';
+import ListCheckExercise from '../component/ListCheckExercise';
+import Result from './Result'
 
 export default class DetailScreen extends React.Component{
   constructor (props){
     super(props)
     this.state ={
-      count: 0
+     count: 0,
+      list: [],
+      check: {},
+      n:0
+    }
+  }
+ 
+  //static: any;
+
+
+  componentDidMount(){
+    const _arr = this.props.route.params.arr;
+    this.setState( {
+      list: _arr
+      
+    });
+  }
+      componentDidMount(){
+    const counter= this.props.route.params.exercise.count;
+    this.setState({
+      count:counter
+    });
+  }
+
+
+
+
+
+  // onStart = () => {
+  //   this.static = setInterval(() => {
+  //     this.setState({
+  //       count: this.state.count + 1,
+  //     })
+  //   }, 1000);
+  // }
+  
+checkBox_Test = (id) => {
+  const checkCopy = {...this.state.check}
+  if (checkCopy[id]) {checkCopy[id] = false; this.setState({n:this.state.n -1})}
+  else {checkCopy[id] = true; this.setState({n:this.state.n +1})}
+  this.setState({ check: checkCopy });
+}
+  
+  toggleChange(){
+    this.setState({checked: !this.state.checked});
+  }
+  appButtonContainer=(arrL, m) =>{
+    if(arrL===m){
+    return{
+      position:'absolute',
+      width:'95%',
+      height:40,
+      justifyContent:'center', 
+      bottom:0,
+      elevation: 8,
+      backgroundColor: "black",
+      borderRadius: 10,
+      marginHorizontal:10,
+      marginBottom:5
+    }
+  }
+  }
+
+  Content =(arrL, m) =>{
+    if(arrL===m){
+      return{
+        marginBottom:50
+      }
+    }
+    else{
+      return{
+        marginBottom:20
+      }
     }
   }
 
-  static: any;
-
-  onStart = () => {
-    this.static = setInterval(() => {
-      this.setState({
-        count: this.state.count + 1,
-      })
-    }, 1000);
-  }
-
-
-
   render(){
-    const {count} = this.state
+    const {navigation} = this.props;
+    const {count} = this.state.count;
+    const {list}=this.state;
+    const{n}=this.state;
+  
     return(
-      <View style={style.container}>
-        <Text >{count}</Text>
-        <View style={style.button}>
-          <Button 
-            title="Start"
-            onPress={this.onStart}
-          />
+      <View>
+            <View style={this.Content(list.length,n)}>
+            <FlatList 
+              data={list}
+              keyExtractor={item => `${item.id}`}
+              renderItem={({ item, index }) => {
+                return(
+                <View style={style.List}> 
+                <ListCheckExercise exercise ={item} />
+                <CheckBox style={style.checkbox}
+                   value = { this.state.check[item.id] }
+                   onChange = {() => this.checkBox_Test(item.id) }
+                  />
+                </View>
+              
+              )
+              
+            }}
+              extraData={this.state} 
+            />
+            </View>
+            <View style={style.CustomButton}>
+            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => navigation.navigate('Result'),{Bcounter:counter}} >
+                <Text  style={style.appButtonText}> The End </Text>
+            </TouchableOpacity>
+            </View>
         </View>
-        {/* <Image style={style.image} source={{uri: 'https://genk.mediacdn.vn/thumb_w/640/2020/1/24/1-1579875068167961852028-crop-15798755023851716635168.jpeg'}}></Image> */}
-      </View>
     );
   }
 }
-
 const style = StyleSheet.create({
-  container:{
-    flex:1,
-    justifyContent:'center',
-    alignItems:'center',
+  Content:{
+    marginBottom:30
   },
-  image:{
-    width:200,
-    height:200,
+  List:{
+    
   },
-  button:{
+  checkbox:{
+    alignSelf:"center",
+    padding:20
+  },
+  appButtonContainer: {
+    position:'absolute',
+    width:'95%',
+    height:40,
+    justifyContent:'center', 
+    bottom:0,
+    elevation: 8,
+    backgroundColor: "black",
     borderRadius: 10,
-    width: 200,
-    height:200,
+    marginHorizontal:10,
+    marginBottom:5
+  },
+  appButtonText: {
+    fontSize: 18,
+    color: "#fff",
+    fontWeight: "bold",
+    alignSelf: "center",
+    textTransform: "uppercase"
   }
 });

@@ -6,16 +6,18 @@ import {
     StyleSheet,
     TouchableOpacity,
 } from 'react-native'
+// import Data from '../component/Data'
 
 
 
 
 export default function ListExercise (props) {
-    const { exercise } = props;
+    const { exercise} = props;
     return (
+      
       <View style={style.E_container}>
         <View style={style.ImageBeside}>
-            <Image style={style.E_ImageStyle} source = {{uri:'https://i.pinimg.com/564x/99/d3/a7/99d3a7c25ad1ff811d192caf9f598b45.jpg'}}/>
+            <Image style={style.E_ImageStyle} source = {{uri:exercise.src}}/>
         </View>
         <View style={style.TextBeside}>
             <Text style={style.E_title}>{exercise.name} </Text>
@@ -27,13 +29,12 @@ export default function ListExercise (props) {
 }
 
 const style = StyleSheet.create({
-    ImageBeside:{
-        
-        width: 150,
-        height: 100,
-        alignItems:'center',
-        justifyContent:'center'
-    },
+  ImageBeside:{       
+    width: 150,
+    height: 100,
+    alignItems:'center',
+    justifyContent:'center'
+  },
   E_ImageStyle:{
     width: 100,
     height: 70,
@@ -44,7 +45,7 @@ const style = StyleSheet.create({
     flex: 1,
     width: 100,
     height: 100,
-    margin:0,
+    margin:10,
     padding:0,
   },
 
@@ -64,6 +65,6 @@ const style = StyleSheet.create({
     borderBottomWidth:1,
     flexDirection:'row',
     alignItems:'stretch',
-    height:100,
+    height:120,
   },
 });

@@ -9,9 +9,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 //import { NavigationContainer } from '@react-navigation/native';
 import ListScreen from './Screens/ListScreen';
 import DetailScreen from './Screens/DetailScreen';
-// import Exercise from './Screens/Exercise.js'
+import Result from './Screens/Result'
 import DScreen from './Screens/DScreen.js'
 const AppNavigator = createStackNavigator();
+
 
 
 function RenderScreen(){
@@ -32,7 +33,7 @@ function RenderScreen(){
             component= {ListScreen}/>
             <AppNavigator.Screen 
 
-            name="DetailScreen" 
+            name="EXERCISING" 
             component= {DetailScreen}/>
             <AppNavigator.Screen 
         
@@ -52,7 +53,13 @@ function RenderScreen(){
                    headerTitleAlign:'center'
                 })
             }
-            />           
+            />
+
+            <AppNavigator.Screen
+                name="Result"
+                component={Result}
+            />
+
 
          </AppNavigator.Navigator>
         )

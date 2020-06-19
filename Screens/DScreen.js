@@ -10,7 +10,7 @@ import {
   TouchableOpacity,
   FlatList
 } from 'react-native';
-
+import data from './db.json';
 import ListExercise from '../component/ListExercise'
 // import { FlatList } from 'react-native-gesture-handler';
 
@@ -19,37 +19,51 @@ export default class DetailScreen extends React.Component{
   constructor(props) {
     super(props) ;
     this.state= {
-     exercises: [
-      {id:1 ,name: 'push up', time: '00:20'},
-      {id:2 ,name: 'wash up', time: '00:30'},
-      {id:4 ,name: 'head up', time: '16x'},
-      {id:5 ,name: 'head up', time: '16x'},
-      {id:6 ,name: 'head up', time: '16x'},
-      {id:7 ,name: 'head up', time: '16x'},
-      {id:8 ,name: 'head up', time: '16x'},
-      ]
+      count:0,
+     exercises: []
     };
+    
   }
 
+  onStart = () => {
+    this.static = setInterval(() => {
+      this.setState({
+        count: this.state.count + 1,
+      })
+    }, 1000);
+  }  
+  
+  componentDidMount(){
+    const getKind = this.props.route.params.GetKind;
+    this.setState( {
+      exercises: data. exercises.filter(x => x.kind===getKind)
+    });
+  }
   render(){
     //var itemId= this.props.route.params.itemId;
     // var newData = data.filter(function(item){
         // return item.id===itemId;
   //})
-
     const {exercises}=this.state;
+    const getKind = this.props.route.params.GetKind;
+    const {navigation} = this.props;
     return(
         <View>
             <View style={style.Content}>
             <FlatList 
               data={exercises}
-              renderItem={({ item }) => <ListExercise exercise ={item} />} 
+              renderItem={({ item }) => <ListExercise exercise ={item}  />} 
               keyExtractor={item => `${item.id}`}
             />
             </View>
             <View style={style.CustomButton}>
-            <TouchableOpacity style={style.appButtonContainer}>
-                <Text  style={style.appButtonText} >Start </Text>
+            <TouchableOpacity style={style.appButtonContainer} onPress={() => {
+                navigation.navigate('EXERCISING',{arr:exercises,checkKind:getKind});
+                
+                this.onStart;   
+            }
+            }>
+                <Text  style={style.appButtonText} >Start </Text>          
             </TouchableOpacity>
             </View>
         </View>
@@ -61,13 +75,7 @@ const style = StyleSheet.create({
   Content:{
     marginBottom:50
   },
-  /*</View>CustomButton:{
-    position:'absolute', 
-    bottom:0,
-    justifyContent:'flex-end',
-    width:'100%',
-    height:'100%'
-  },*/
+
   appButtonContainer: {
     position:'absolute',
     width:'95%',
