@@ -10,7 +10,8 @@ import {
   Alert,
   TouchableOpacity,
   FlatList,
-  CheckBox
+  CheckBox,
+  Linking
 } from 'react-native';
 import data from './db.json';
 import ListCheckExercise from '../component/ListCheckExercise'
@@ -22,7 +23,9 @@ export default class DetailScreen extends React.Component{
       count: 0,
       list: [],
       check: {},
-      n:0
+      n:0,
+      counter:0,
+    
     }
   }
  
@@ -33,8 +36,10 @@ export default class DetailScreen extends React.Component{
     const _arr = this.props.route.params.arr;
     this.setState( {
       list: _arr
-      
     });
+    setInterval(() => {
+      this.setState( prevState => ({counter: prevState.counter + 1}));
+  },1000);
   }
 
 
@@ -42,12 +47,12 @@ export default class DetailScreen extends React.Component{
 
 
   onStart = () => {
-    this.static = setInterval(() => {
-      this.setState({
-        count: this.state.count + 1,
-      })
-    }, 1000);
-  }
+this.static = setInterval(() => {
+  this.setState({
+  count: this.state.count + 1,
+  })
+}, 1000);
+}
   
 checkBox_Test = (id) => {
   const checkCopy = {...this.state.check}
@@ -88,23 +93,32 @@ checkBox_Test = (id) => {
       }
     }
   }
+ getTime=(counter) =>{
 
+ }
   render(){
     const {navigation} = this.props;
     const {count} = this.state;
     const {list}=this.state;
     const{n}=this.state;
-  
+    const{counter}=this.state
+   
     return(
       <View>
+            {/* <Button
+              title ="HOW TO DO IT"
+              onPress={() => Linking.openURL('https://workoutlabs.com/exercise-guide/')}
+            /> */}
             <View style={this.Content(list.length,n)}>
             <FlatList 
               data={list}
               keyExtractor={item => `${item.id}`}
               renderItem={({ item, index }) => {
                 return(
-                <View style={style.List}> 
-                <ListCheckExercise exercise ={item} />
+                <View style={style.List}>
+                   <TouchableOpacity  onPress={() => navigation.navigate('Guide',{getGuide:item.guide})}>  
+                  <ListCheckExercise exercise ={item} onPress={() => navigation.navigate('Result')} />
+                  </TouchableOpacity>
                 <CheckBox style={style.checkbox}
                    value = { this.state.check[item.id] }
                    onChange = {() => this.checkBox_Test(item.id) }
@@ -118,7 +132,11 @@ checkBox_Test = (id) => {
             />
             </View>
             <View style={style.CustomButton}>
-            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => navigation.navigate('DetailScreen')} >
+            <TouchableOpacity  style={this.appButtonContainer(list.length,n)} onPress={() => {
+
+              navigation.navigate('Result',{
+              timeResult:counter
+            })}} >
                 <Text  style={style.appButtonText}> The End </Text>
             </TouchableOpacity>
             </View>

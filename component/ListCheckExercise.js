@@ -4,6 +4,7 @@ import {
     Image,
     Text,
     StyleSheet,
+    Button
 } from 'react-native'
 
 
@@ -11,17 +12,18 @@ import {
 
 export default function ListCheckExercise (props) {
     const { exercise, check} = props;
-   
+    
    
     return (
       
       <View style={style.container}>
-        <View >
-            <Image style={style.bigImage}  source = {{uri:exercise.src}}/>
+        <View  >
+            <Image style={style.bigImage}  source = {{uri:exercise.src}} />
         </View>
-        <View >
-            <Text >{exercise.time} </Text>
-            
+        <View style={style.centertext}>
+            <Text style={{fontWeight:'bold'}} >{exercise.name} </Text>
+            <Text style={{fontWeight:'bold'}} >{exercise.time} </Text>
+           
         </View>
       </View>
     
@@ -41,6 +43,10 @@ const style = StyleSheet.create({
     },
     checkbox: {
         alignSelf: "center",
+    },
+    centertext:{
+      alignItems:"center",
+      fontWeight:'bold'
     },
     bigImage: {
         height:200,

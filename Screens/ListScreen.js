@@ -49,6 +49,7 @@ export default class ListScreen extends React.Component{
           renderItem={({item}) => <ListItems ChangeID={item} ChangeImg={item} onPress={() => navigation.navigate('DScreen',{
             TittleName:item.name,
             GetKind:item.id,
+            GetImage:item.src
           })}/>}
           keyExtractor={(item,index) => `${item.id}`}
           contentContainerStyle={style.container}

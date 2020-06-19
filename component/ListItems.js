@@ -5,9 +5,11 @@ import {
     Text,
     StyleSheet,
     TouchableOpacity,
+    ImageBackground,
+    Button
 } from 'react-native'
 // import theboy2 from '../Images/theboy2.jpg'
-
+import Video from 'react-native-video';
 
 
 export default function ListItems (props) {
@@ -15,9 +17,12 @@ export default function ListItems (props) {
     return (
     <TouchableOpacity activeOpacity={0.5} 
       onPress={onPress}>  
-      <View style={style.container}>
+      <View >
+        <ImageBackground style={style.container} source = {{uri:ChangeImg.src}}>
         <Text style={style.title}>{ChangeID.name} </Text>
-        <Image style={style.ImageStyle} source = {{uri:ChangeImg.src}}/>
+        {/* <Image style={style.ImageStyle} source = {{uri:ChangeImg.src}}/> */}
+        </ImageBackground>
+        
       </View>
     </TouchableOpacity>
     );
@@ -25,20 +30,25 @@ export default function ListItems (props) {
 
 const style = StyleSheet.create({
   ImageStyle:{
-    width: 120,
-    height: 120,
+    alignItems:'stretch',
+    height: 20,
+    margin:0,
+    padding:0
   },
 
   title:{
     textTransform:'uppercase',
     marginBottom:8,
-    fontWeight:'700'
+    fontWeight:'700',
+    color:'#FFF',
+    fontSize:20,
   },
   container:{
     padding:20,
     borderRadius:4,
     backgroundColor:'#A9F5F2',
     elevation:10,
-    marginBottom: 16
+    marginBottom: 16,
+    height:150,
   },
 });
